@@ -5,15 +5,16 @@
 width: 100%;
 height: 100%;
 }
+
 .abc{
     width: 49%;
-    height: 500px;
+    height: 500%;
     text-align: center;
 }
 .def{
     width: 49%;
-    height: 500px;
-    float: right;
+    height: 100%;
+    align-content: center;
 }
 .abc,.def{
     display: inline-block;
