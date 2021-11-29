@@ -5,3 +5,47 @@
 width: 100%;
 height: 100%;
 }
+
+.abc{
+    width: 49%;
+    height: 500%;
+    text-align: center;
+}
+.def{
+    width: 49%;
+    height: 100%;
+    align-content: center;
+}
+.abc,.def{
+    display: inline-block;
+    background-color: #F2F2F2;
+}
+button{
+    background: rgb(10, 10, 10);
+    border-radius: 10px;
+    color: #f3f6f7;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+button:hover{
+    padding: 10px 20px;
+    background: #343634;
+    color: rgb(238, 229, 229);
+}
+.abcdef,.abc1def1{
+     display: block;
+     text-align: center;
+     background-color: #F2F2F2;
+}
+.abc1,.def1{
+    display: block;
+}
+body{
+    font-size: larger;
+}
+.abc1def1{
+    border-top: 50px;
+}
+#render-dictionary{
+    margin-top: 50px;
+}
